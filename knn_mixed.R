@@ -1,7 +1,7 @@
 # knn_mixed.R
 
 # list, list -> numeric
-# compute the distance between to samples of objects. Objects can be mixed containing
+# compute the distance between two samples of objects. Objects can be mixed containing
 # both numerical (euclidean distance) and categorical (simple matching) data as factors.
 # ASSUME: numerical data has been previously normalized to values between 0 and 1
 mixed_distance <- function(v1, v2){
